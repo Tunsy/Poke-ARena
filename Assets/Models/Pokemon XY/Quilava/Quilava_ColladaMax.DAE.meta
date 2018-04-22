@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 4bd6c2b46a5f16b4a8c6c46cff2b74d7
+timeCreated: 1524391001
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: EndHairA
+    100002: EndHairB
+    100004: EndHairC
+    100006: EndHead
+    100008: EndHips
+    100010: EndLEar
+    100012: EndLFoot
+    100014: EndLHand
+    100016: EndLTail2
+    100018: EndLToe
+    100020: EndREar
+    100022: EndRFoot
+    100024: EndRHand
+    100026: EndRTail2
+    100028: EndRToe
+    100030: EndTail2
+    100032: Hair
+    100034: HairA
+    100036: HairB
+    100038: HairC
+    100040: Head
+    100042: Hips
+    100044: LArm
+    100046: LEar
+    100048: LFoot
+    100050: LForeArm
+    100052: LHand
+    100054: LShoulder
+    100056: LTail1
+    100058: LTail2
+    100060: LThigh
+    100062: LToe
+    100064: Neck
+    100066: Origin
+    100068: pm0156_00
+    100070: pm0156_00_BodyASkin
+    100072: pm0156_00_BodyBSkin
+    100074: pm0156_00_IrisSkin
+    100076: Quilava
+    100078: //RootNode
+    100080: RArm
+    100082: REar
+    100084: RFoot
+    100086: RForeArm
+    100088: RHand
+    100090: RShoulder
+    100092: RTail1
+    100094: RTail2
+    100096: RThigh
+    100098: RToe
+    100100: Spine1
+    100102: Spine2
+    100104: Tail
+    100106: Tail1
+    100108: Tail2
+    100110: Waist
+    400000: EndHairA
+    400002: EndHairB
+    400004: EndHairC
+    400006: EndHead
+    400008: EndHips
+    400010: EndLEar
+    400012: EndLFoot
+    400014: EndLHand
+    400016: EndLTail2
+    400018: EndLToe
+    400020: EndREar
+    400022: EndRFoot
+    400024: EndRHand
+    400026: EndRTail2
+    400028: EndRToe
+    400030: EndTail2
+    400032: Hair
+    400034: HairA
+    400036: HairB
+    400038: HairC
+    400040: Head
+    400042: Hips
+    400044: LArm
+    400046: LEar
+    400048: LFoot
+    400050: LForeArm
+    400052: LHand
+    400054: LShoulder
+    400056: LTail1
+    400058: LTail2
+    400060: LThigh
+    400062: LToe
+    400064: Neck
+    400066: Origin
+    400068: pm0156_00
+    400070: pm0156_00_BodyASkin
+    400072: pm0156_00_BodyBSkin
+    400074: pm0156_00_IrisSkin
+    400076: Quilava
+    400078: //RootNode
+    400080: RArm
+    400082: REar
+    400084: RFoot
+    400086: RForeArm
+    400088: RHand
+    400090: RShoulder
+    400092: RTail1
+    400094: RTail2
+    400096: RThigh
+    400098: RToe
+    400100: Spine1
+    400102: Spine2
+    400104: Tail
+    400106: Tail1
+    400108: Tail2
+    400110: Waist
+    2100000: Material__99
+    2100002: Material__100
+    2100004: Material__101
+    2100006: Material__102
+    2100008: Material__103
+    4300000: Quilava
+    9500000: //RootNode
+    13700000: Quilava
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
