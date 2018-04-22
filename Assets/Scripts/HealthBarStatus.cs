@@ -15,11 +15,6 @@ public class HealthBarStatus : MonoBehaviour {
         currentScale = baseScale;
         transform = GetComponent<Transform>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     public void UpdateSize()
     {
@@ -31,7 +26,7 @@ public class HealthBarStatus : MonoBehaviour {
         }
         else
         {
-            gameObject.transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y, 0);
+            gameObject.SetActive(false);
         }
     }
 }

@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
     public static GameManager instance = new GameManager();
 
     public bool isStarted = false;
+    public bool isGameOver = false;
+    public int score = 0;
 
     // Use this for initialization
     void Awake()
@@ -31,7 +33,11 @@ public class GameManager : MonoBehaviour
 
     public void EndGame()
     {
-        isStarted = false;
+        isGameOver = true;
     }
 
+    public void AddScore(int scoreIncrement)
+    {
+        score += scoreIncrement;
+    }
 }
