@@ -42,7 +42,7 @@ public class PlayerRotateScript : MonoBehaviour,IPointerDownHandler,IPointerUpHa
 
 	void Click(){
 		if (GameManager.instance.isStarted) {
-			pokemon.transform.Rotate (Vector3.up * 5);
+			pokemon.transform.Rotate (Vector3.up * 3);
 
 		}
 
