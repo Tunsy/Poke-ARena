@@ -1,13 +1,11 @@
 fileFormatVersion: 2
-guid: a47ef132b2c8fa94b8d2afc2a4a6db57
-timeCreated: 1524355362
+guid: a31aec16c689ca24288350993befca6d
+timeCreated: 1524376221
 licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences:
-  - healthBar: {instanceID: 0}
-  - hurtSound: {fileID: 8300000, guid: 3daf46d9be0edb24e9c5351d01698f8c, type: 3}
+  defaultReferences: []
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

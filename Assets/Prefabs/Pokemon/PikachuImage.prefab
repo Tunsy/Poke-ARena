@@ -3240,7 +3240,11 @@ MonoBehaviour:
   currentHealth: 0
   maxHealth: 100
   isAlive: 1
+  isInvicible: 0
+  invincibilityTimer: 0
   healthBar: {fileID: 114875229400077778}
+  hurtSound: {fileID: 8300000, guid: 3daf46d9be0edb24e9c5351d01698f8c, type: 3}
+  renderer: {fileID: 0}
 --- !u!114 &114384935422049084
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3299,7 +3303,11 @@ MonoBehaviour:
   currentHealth: 0
   maxHealth: 100
   isAlive: 1
+  isInvicible: 0
+  invincibilityTimer: 1.5
   healthBar: {fileID: 114994670093388736}
+  hurtSound: {fileID: 8300000, guid: 3daf46d9be0edb24e9c5351d01698f8c, type: 3}
+  renderer: {fileID: 0}
 --- !u!114 &114994670093388736
 MonoBehaviour:
   m_ObjectHideFlags: 1

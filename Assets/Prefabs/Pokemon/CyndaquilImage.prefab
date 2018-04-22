@@ -1573,7 +1573,10 @@ MonoBehaviour:
   currentHealth: 0
   maxHealth: 100
   isAlive: 1
+  isInvicible: 0
+  invincibilityTimer: 1.5
   healthBar: {fileID: 114643779386333550}
+  hurtSound: {fileID: 8300000, guid: 3daf46d9be0edb24e9c5351d01698f8c, type: 3}
 --- !u!114 &114643779386333550
 MonoBehaviour:
   m_ObjectHideFlags: 1

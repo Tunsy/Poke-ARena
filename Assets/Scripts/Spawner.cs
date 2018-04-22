@@ -36,15 +36,15 @@ public class Spawner : MonoBehaviour {
         {
             if (GameManager.level == 1)
             {
-                Instantiate(Magnemite, transform.position, transform.rotation);
+                Instantiate(Magnemite, transform.position, Quaternion.Euler(270, 0, 180));
             }
             else if(GameManager.level == 2)
             {
-                Instantiate(Voltorb, transform.position, transform.rotation);
+                Instantiate(Voltorb, transform.position, Quaternion.Euler(270, 0, 180));
             }
             else if(GameManager.level == 3)
             {
-                Instantiate(Magneton, transform.position, transform.rotation);
+                Instantiate(Magneton, transform.position, Quaternion.Euler(270, 0, 180));
             }
             else { }
         }
