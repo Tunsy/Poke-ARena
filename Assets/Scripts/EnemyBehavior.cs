@@ -10,7 +10,6 @@ public class EnemyBehavior : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        player = GameObject.FindGameObjectWithTag("PlayerHealth");
         speed = Random.Range(0.5f, 2f);
     }
 	
@@ -18,6 +17,7 @@ public class EnemyBehavior : MonoBehaviour {
 	void Update () {
         if (GameManager.instance.isStarted == true)
         {
+            player = GameManager.healthLevels[GameManager.instance.getActive()];
             float distance = speed * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, player.transform.position, distance);
         }
@@ -28,7 +28,9 @@ public class EnemyBehavior : MonoBehaviour {
         if(collider.gameObject.tag == "PlayerHealth")
         {
             setDamage();
-            player.GetComponent<Health>().TakeDamage(damage);            
+            player.GetComponent<Health>().TakeDamage(damage);
+            Debug.Log(player);
+            Debug.Log(player.GetComponent<Health>().currentHealth);            
             Destroy(gameObject);
         }
     }
