@@ -51,7 +51,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b15235a8b12904743897a37395a14600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  victorySound: {fileID: 8300000, guid: 18cf1d59d0895e347999b1e4eb57451e, type: 3}
   isStarted: 0
   isGameOver: 0
   score: 0
+  level: 1
+  levelButton: {fileID: 0}
+  deathScreen: {fileID: 0}
   spawnAudio: {fileID: 8300000, guid: c27c650201112a944ac396f8430c1a66, type: 3}

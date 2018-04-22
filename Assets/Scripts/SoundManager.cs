@@ -79,4 +79,19 @@ public class SoundManager : MonoBehaviour
         //Play the clip.
         efxSource.Play();
     }
+
+    public void RandomizePitch(AudioClip clips)
+    {
+        //Choose a random pitch to play back our clip at between our high and low pitch ranges.
+        float randomPitch = Random.Range(lowPitchRange, highPitchRange);
+
+        //Set the pitch of the audio source to the randomly chosen pitch.
+        efxSource.pitch = randomPitch;
+
+        //Set the clip to the clip at our randomly chosen index.
+        efxSource.clip = clips;
+
+        //Play the clip.
+        efxSource.Play();
+    }
 }

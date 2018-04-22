@@ -10,6 +10,7 @@ public class PlayerShooterScript : MonoBehaviour {
 	public float speed;
 	public Transform facingTransform;
 	public bool powerUp=false;
+    public AudioClip shootSound;
 
 	// Use this for initialization
 	void Start () {
@@ -18,11 +19,12 @@ public class PlayerShooterScript : MonoBehaviour {
 	
 //	 Update is called once per frame
 	void Update () {
-		Debug.Log ("hi ther eim your message");
-		Debug.Log (GameManager.instance.getActive ());
+		//Debug.Log (GameManager.instance.getActive ());
 		if (GameManager.instance.isStarted && Time.time > nextFire) {
 			nextFire = Time.time + fireRate;
 			Rigidbody bullet= Instantiate(shot, transform.position, facingTransform.rotation) as Rigidbody;
+            SoundManager.instance.RandomizePitch(shootSound);
+
 			if (powerUp) {
 				Rigidbody bullet1= Instantiate(shot, transform.position, facingTransform.rotation) as Rigidbody;
 				bullet.velocity = bullet.transform.forward * (speed);

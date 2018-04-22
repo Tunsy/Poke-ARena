@@ -1605,6 +1605,7 @@ MonoBehaviour:
   speed: 4.5
   facingTransform: {fileID: 4735782379212228}
   powerUp: 0
+  shootSound: {fileID: 8300000, guid: 8a01557f77c89eb4cb1c36339c3a5468, type: 3}
 --- !u!114 &114377990559373710
 MonoBehaviour:
   m_ObjectHideFlags: 1

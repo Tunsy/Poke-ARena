@@ -7,6 +7,7 @@ using Vuforia;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance = new GameManager();
+    public AudioClip victorySound;
 
     public bool isStarted = false;
     public bool isGameOver = false;
@@ -77,6 +78,8 @@ public class GameManager : MonoBehaviour
     {
         if (score >= 80 && level == 1)
         {
+            SoundManager.instance.StopMusic();
+            SoundManager.instance.PlaySingle(victorySound);
             Time.timeScale = 0f;
             levelButton.SetActive(true);
             GameManager.instance.level = 2;
@@ -84,6 +87,7 @@ public class GameManager : MonoBehaviour
 
         else if (score >= 250 && level == 2)
         {
+            SoundManager.instance.PlaySingle(victorySound);
             Time.timeScale = 0f;
             levelButton.SetActive(true);
             GameManager.instance.level = 3;
