@@ -20,6 +20,7 @@ public class PlayerRotateScript : MonoBehaviour,IPointerDownHandler,IPointerUpHa
         {
             if (GameManager.instance.getActive() != null)
                 pokemon = GameManager.instance.players[GameManager.instance.getActive()];
+
             if (buttonPressed)
             {
                 y = pokemon.transform.rotation.eulerAngles.y;
@@ -41,10 +42,8 @@ public class PlayerRotateScript : MonoBehaviour,IPointerDownHandler,IPointerUpHa
 
 	void Click(){
 		if (GameManager.instance.isStarted) {
-//			float y = squirtle.transform.rotation.eulerAngles.y;
-//			if (y >= -90 && y<=90) {
-				pokemon.transform.Rotate (Vector3.up * 5);
-//			}
+			pokemon.transform.Rotate (Vector3.up * 5);
+
 		}
 
 	}

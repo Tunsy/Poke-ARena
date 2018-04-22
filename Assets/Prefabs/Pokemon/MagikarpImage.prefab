@@ -287,6 +287,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1472891293900760
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4646868228363288}
+  - component: {fileID: 114038742844847678}
+  m_Layer: 0
+  m_Name: Water Gun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1476350286043002
 GameObject:
   m_ObjectHideFlags: 1
@@ -1133,6 +1149,19 @@ Transform:
   m_Father: {fileID: 4760982834970652}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4646868228363288
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1472891293900760}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.72309136, z: 0.8546833}
+  m_LocalScale: {x: 1.329212, y: 1.329212, z: 1.329212}
+  m_Children: []
+  m_Father: {fileID: 4711020954822518}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4696327739618846
 Transform:
   m_ObjectHideFlags: 1
@@ -1172,6 +1201,7 @@ Transform:
   m_Children:
   - {fileID: 4291042514347260}
   - {fileID: 4227997840223750}
+  - {fileID: 4646868228363288}
   m_Father: {fileID: 4379923348806244}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1467,6 +1497,22 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114038742844847678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1472891293900760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb06ca2f756d344388ab5cb56e5c8c6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shot: {fileID: 54702687077821260, guid: 3cd3894cf14cd4a188018912a9910165, type: 2}
+  fireRate: 2
+  speed: 3
+  facingTransform: {fileID: 4711020954822518}
+  powerUp: 0
 --- !u!114 &114224209711145794
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -41,10 +41,7 @@ public class PlayerRotateScript2 : MonoBehaviour,IPointerDownHandler,IPointerUpH
 
 	void Click(){
 		if (GameManager.instance.isStarted) {
-//			float y = squirtle.transform.rotation.eulerAngles.y;
-//			if (y >= -90 && y<=90) {
 				pokemon.transform.Rotate (Vector3.up * -5);
-//			}
 		}
 
 	}

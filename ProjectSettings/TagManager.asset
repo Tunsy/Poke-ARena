@@ -13,6 +13,9 @@ TagManager:
   - LevelButton
   - Death
   - ScoreState
+  - Pikachu Projectile
+  - GeneralProjectile
+  - Bullet
   layers:
   - Default
   - TransparentFX

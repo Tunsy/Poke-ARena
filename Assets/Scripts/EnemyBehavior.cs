@@ -7,10 +7,12 @@ public class EnemyBehavior : MonoBehaviour {
     private float speed = 1.0f;
     public int damage;
     private GameObject player;
+	private int points;
 
 	// Use this for initialization
 	void Start () {
         speed = Random.Range(0.5f, 2f);
+		setPoints ();
     }
 	
 	// Update is called once per frame
@@ -32,6 +34,14 @@ public class EnemyBehavior : MonoBehaviour {
             Debug.Log(player.GetComponent<Health>().currentHealth);            
             Destroy(gameObject);
         }
+
+        if (collider.gameObject.tag == "Bullet")
+        {
+            setDamage();
+            GameManager.instance.AddScore(damage);
+            Destroy(collider.gameObject);
+            Destroy(gameObject);
+        }
     }
 
     private void setDamage()
@@ -49,4 +59,21 @@ public class EnemyBehavior : MonoBehaviour {
             damage = 40;
         }
     }
+	private void setPoints(){
+		if(gameObject.tag == "Magnemite")
+		{
+			points = 10;
+		}
+		else if(gameObject.tag == "Voltorb")
+		{
+			points = 25;
+		}
+		else
+		{
+			points = 40;
+		}
+	}
+	public int getPoints(){
+		return points;
+	}
 }
