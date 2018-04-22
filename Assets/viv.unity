@@ -333,8 +333,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23320fd740b9ca848844fff3e3f8b806, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transform: {fileID: 0}
   health: {fileID: 0}
-  baseScale: 0
 --- !u!43 &749326191
 Mesh:
   m_ObjectHideFlags: 0
@@ -721,5 +721,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 0
-  maxHealth: 0
+  maxHealth: 100
   isAlive: 0
+  healthBar: {fileID: 638501628}
