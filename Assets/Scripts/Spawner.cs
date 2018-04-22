@@ -12,7 +12,7 @@ public class Spawner : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        interval = 3;
+        interval = 2;
 	}
 	
 	// Update is called once per frame
@@ -23,7 +23,7 @@ public class Spawner : MonoBehaviour {
             started = true;
         }
         if (GameManager.instance.level == 2)
-            interval = 2;
+            interval = 1;
         else if (GameManager.instance.level == 3)
             interval = 1;
 	}
