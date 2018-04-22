@@ -10,6 +10,8 @@ TagManager:
   - Magneton
   - Magnemite
   - PlayerHealth
+  - LevelButton
+  - Death
   layers:
   - Default
   - TransparentFX
