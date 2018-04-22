@@ -45,9 +45,10 @@ public class GameManager : MonoBehaviour
         deathScreen = GameObject.FindGameObjectWithTag("Death");
         deathScreen.SetActive(false);
         levelButton.SetActive(false);
-        scoreState = GameObject.FindGameObjectWithTag("ScoreState").GetComponent<Text>();
-        scoreState.text = "Count: " + score.ToString();
+        //scoreState = GameObject.FindGameObjectWithTag("ScoreState").GetComponent<Text>();
+        //scoreState.text = "Count: " + score.ToString();
         int i = 0;
+        Debug.Log("Starting 23");
 
         foreach(GameObject obj in GameObject.FindGameObjectsWithTag("PlayerHealth"))
         {
@@ -61,8 +62,15 @@ public class GameManager : MonoBehaviour
 
         foreach (GameObject obj in GameObject.FindGameObjectsWithTag("GeneralProjectile"))
         {
+            Debug.Log(obj.name);
             projectiles.Add(obj.name, obj);
         }
+
+        foreach (string key in projectiles.Keys)
+        {
+            projectiles[key].gameObject.SetActive(false);
+        }
+
     }
 
     private void Update()
@@ -116,5 +124,13 @@ public class GameManager : MonoBehaviour
             return tb.TrackableName;
         }
         return "";
+    }
+
+    public void ResetProjectiles()
+    {
+        foreach (string obj in GameManager.instance.projectiles.Keys)
+        {
+            GameManager.instance.projectiles[obj].gameObject.SetActive(false);
+        }
     }
 }

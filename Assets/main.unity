@@ -447,6 +447,14 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 1221475435}
+    - target: {fileID: 1624365713488224, guid: 2c37223f79166564a90bc013f056c28b, type: 2}
+      propertyPath: m_TagString
+      value: GeneralProjectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 1624365713488224, guid: 2c37223f79166564a90bc013f056c28b, type: 2}
+      propertyPath: m_Name
+      value: Fire Gun
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2c37223f79166564a90bc013f056c28b, type: 2}
   m_IsPrefabParent: 0
@@ -817,6 +825,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 894156186}
+    - target: {fileID: 1472891293900760, guid: 9dfead0f07b46f34f9ce7ae13963f7f5, type: 2}
+      propertyPath: m_TagString
+      value: GeneralProjectile
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9dfead0f07b46f34f9ce7ae13963f7f5, type: 2}
   m_IsPrefabParent: 0
@@ -1173,6 +1185,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 174163177}
+    - target: {fileID: 1847276612534204, guid: e62a314d7a4d15b4dabb4cf32e9cc99d, type: 2}
+      propertyPath: m_TagString
+      value: GeneralProjectile
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e62a314d7a4d15b4dabb4cf32e9cc99d, type: 2}
   m_IsPrefabParent: 0
