@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public bool isStarted = false;
     public bool isGameOver = false;
     public int score = 0;
+    public static int level = 1;
 
     // Use this for initialization
     void Awake()

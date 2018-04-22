@@ -6,12 +6,13 @@ public class EnemyBehavior : MonoBehaviour {
 
     private float speed = 1.0f;
     public int damage;
-    public GameObject player;
+    private GameObject player;
 
 	// Use this for initialization
 	void Start () {
         player = GameObject.FindGameObjectWithTag("Player");
-	}
+        speed = Random.Range(0.5f, 2f);
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -26,24 +27,25 @@ public class EnemyBehavior : MonoBehaviour {
     {
         if(collider.gameObject.tag == "Player")
         {
+            setDamage();
             player.GetComponent<Health>().TakeDamage(damage);            
             Destroy(gameObject);
         }
     }
 
-    private void doDamage()
+    private void setDamage()
     {
-        if(gameObject.tag == "Pidgey")
+        if(gameObject.tag == "Magnemite")
         {
-            //player.health -= 10;
+            damage = 10;
         }
-        else if(gameObject.tag == "Pidgeotto")
+        else if(gameObject.tag == "Voltorb")
         {
-
+            damage = 25;
         }
         else
         {
-
+            damage = 40;
         }
     }
 }
