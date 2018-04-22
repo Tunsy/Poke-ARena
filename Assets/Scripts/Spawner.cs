@@ -22,27 +22,27 @@ public class Spawner : MonoBehaviour {
             InvokeRepeating("FireBird", 2, interval);
             started = true;
         }
-        if (GameManager.level == 2)
+        if (GameManager.instance.level == 2)
             interval = 2;
-        else if (GameManager.level == 3)
+        else if (GameManager.instance.level == 3)
             interval = 1;
 	}
 
     void FireBird()
     {
         int num = (int)Random.Range(0f, 100f);
-        Debug.Log(GameManager.level);
+        Debug.Log(GameManager.instance.level);
         if (num % 2 == 0)
         {
-            if (GameManager.level == 1)
+            if (GameManager.instance.level == 1)
             {
                 Instantiate(Magnemite, transform.position, Quaternion.Euler(270, 0, 180));
             }
-            else if(GameManager.level == 2)
+            else if(GameManager.instance.level == 2)
             {
-                Instantiate(Voltorb, transform.position, Quaternion.Euler(270, 0, 180));
+                Instantiate(Voltorb, transform.position, Quaternion.Euler(0, 180, 0));
             }
-            else if(GameManager.level == 3)
+            else if(GameManager.instance.level == 3)
             {
                 Instantiate(Magneton, transform.position, Quaternion.Euler(270, 0, 180));
             }
