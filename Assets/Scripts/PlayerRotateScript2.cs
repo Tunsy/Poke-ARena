@@ -18,7 +18,8 @@ public class PlayerRotateScript2 : MonoBehaviour,IPointerDownHandler,IPointerUpH
 	void Update () {
         if (GameManager.instance.isStarted)
         {
-            pokemon = GameManager.players[GameManager.instance.getActive()];
+            if(GameManager.instance.getActive() != null)
+                pokemon = GameManager.instance.players[GameManager.instance.getActive()];
             if (buttonPressed)
             {
                 y = pokemon.transform.rotation.eulerAngles.y;

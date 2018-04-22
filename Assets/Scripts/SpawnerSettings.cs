@@ -15,11 +15,11 @@ public class SpawnerSettings : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(GameManager.instance.isStarted == true && GameManager.level == 2)
+		if(GameManager.instance.isStarted == true && GameManager.instance.level == 2)
         {
             spawner2.SetActive(true);
         }
-        else if (GameManager.instance.isStarted == true && GameManager.level == 3)
+        else if (GameManager.instance.isStarted == true && GameManager.instance.level == 3)
         {
             spawner3.SetActive(true);
         }
