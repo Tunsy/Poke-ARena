@@ -5,6 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/main.unity
     guid: 5c86418ca026f4a4c912926748d19071
+  - enabled: 1
+    path: Assets/Scenes/jaskarn.unity
+    guid: c939d243abf62764093780459c2af46e
