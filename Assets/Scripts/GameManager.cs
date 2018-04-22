@@ -61,13 +61,13 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if(score == 150 && level == 1)
+        if(score >= 150 && level == 1)
         {
             Time.timeScale = 0f;
             levelButton.SetActive(true);
         }
 
-        else if (score == 500 && level == 2)
+        else if (score >= 500 && level == 2)
         {
             Time.timeScale = 0f;
             levelButton.SetActive(true);
