@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 4711020954822518}
   - component: {fileID: 95508696526419490}
   m_Layer: 0
-  m_Name: MagikarpF
+  m_Name: magikarp
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -297,8 +297,8 @@ GameObject:
   - component: {fileID: 4646868228363288}
   - component: {fileID: 114038742844847678}
   m_Layer: 0
-  m_Name: Water Gun
-  m_TagString: Untagged
+  m_Name: magikarp
+  m_TagString: GeneralProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -425,7 +425,7 @@ GameObject:
   - component: {fileID: 65518270847354024}
   - component: {fileID: 114311562693588888}
   m_Layer: 0
-  m_Name: MagikarpF
+  m_Name: magikarp
   m_TagString: PlayerHealth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1509,8 +1509,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shot: {fileID: 54702687077821260, guid: 3cd3894cf14cd4a188018912a9910165, type: 2}
-  fireRate: 2
-  speed: 3
+  fireRate: 0.4
+  speed: 0.8
   facingTransform: {fileID: 4711020954822518}
   powerUp: 0
 --- !u!114 &114224209711145794
