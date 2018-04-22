@@ -29,4 +29,9 @@ public class GameManager : MonoBehaviour
         isStarted = true;
     }
 
+    public void EndGame()
+    {
+        isStarted = false;
+    }
+
 }
