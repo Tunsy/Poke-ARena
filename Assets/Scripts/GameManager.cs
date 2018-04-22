@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
 
     private string[] pokemon = { "pikachu", "magikarp", "cyndaquil" };
 
-    public Text scoreState;
+    private Text scoreState;
     public AudioClip spawnAudio;
 
     // Use this for initialization
@@ -45,6 +45,7 @@ public class GameManager : MonoBehaviour
         deathScreen = GameObject.FindGameObjectWithTag("Death");
         deathScreen.SetActive(false);
         levelButton.SetActive(false);
+        scoreState = GameObject.FindGameObjectWithTag("ScoreState").GetComponent<Text>();
         scoreState.text = "Count: " + score.ToString();
         int i = 0;
         foreach(GameObject obj in GameObject.FindGameObjectsWithTag("PlayerHealth"))
@@ -95,9 +96,8 @@ public class GameManager : MonoBehaviour
     public void AddScore(int scoreIncrement)
     {
         score += scoreIncrement;
-        GameObject scoreState = GameObject.FindGameObjectWithTag("ScoreState");
-        score.
-        
+        scoreState.text = "Count: " + score.ToString();
+
     }
 
     public string getActive()
