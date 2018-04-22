@@ -10,8 +10,6 @@ public class ButtonFunctions : MonoBehaviour {
         SoundManager.instance.PlayBattleMusic();
         gameObject.SetActive(false);
         Time.timeScale = 1f;
-        if(GameManager.instance.level < 3)
-            GameManager.instance.level++;
     }
     public void restart()
     {
