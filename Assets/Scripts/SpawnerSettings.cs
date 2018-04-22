@@ -9,7 +9,7 @@ public class SpawnerSettings : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        spawner2.SetActive(false);
+		spawner2.SetActive(true);
         spawner3.SetActive(false);
 	}
 	
@@ -17,11 +17,11 @@ public class SpawnerSettings : MonoBehaviour {
 	void Update () {
 		if(GameManager.instance.isStarted == true && GameManager.instance.level == 2)
         {
-            spawner2.SetActive(true);
-        }
-        else if (GameManager.instance.isStarted == true && GameManager.instance.level == 3)
-        {
             spawner3.SetActive(true);
         }
+//        else if (GameManager.instance.isStarted == true && GameManager.instance.level == 3)
+//        {
+//            spawner3.SetActive(true);
+//        }
     }
 }

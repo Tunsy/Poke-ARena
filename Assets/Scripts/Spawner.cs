@@ -12,7 +12,7 @@ public class Spawner : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        interval = 2;
+        interval = 1;
 	}
 	
 	// Update is called once per frame
@@ -32,7 +32,7 @@ public class Spawner : MonoBehaviour {
     {
         int num = (int)Random.Range(0f, 100f);
         Debug.Log(GameManager.instance.level);
-        if (num % 2 == 0)
+		if (num % 2 == 0 && num % 3 == 0)
         {
             if (GameManager.instance.level == 1)
             {
