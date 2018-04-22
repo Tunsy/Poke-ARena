@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 2309de83d8f45a540889ea34fcc687d9
+timeCreated: 1524387315
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: EndHeadA
+    100004: EndHeadB
+    100006: EndHeadC
+    100008: EndLArmA
+    100010: EndLArmB
+    100012: EndLArmC
+    100014: EndLLegA
+    100016: EndLLegC
+    100018: EndRArmA
+    100020: EndRArmB
+    100022: EndRArmC
+    100024: EndRLegA
+    100026: EndRLegB
+    100028: EndWaist
+    100030: HeadA
+    100032: HeadB
+    100034: HeadC
+    100036: LArmA
+    100038: LArmB
+    100040: LArmC
+    100042: LLegA
+    100044: LLegC
+    100046: pm0082_00
+    100048: //RootNode
+    100050: pm0082_00_BodyASkin
+    100052: pm0082_00_BodyBSkin
+    100054: pm0082_00_BodyCSkin
+    100056: RArmA
+    100058: RArmB
+    100060: RArmC
+    100062: RLegA
+    100064: RLegB
+    100066: vsn_mesh_0_pm0082_00_BodyASkin
+    100068: vsn_mesh_10_pm0082_00_BodyBSkin
+    100070: vsn_mesh_11_pm0082_00_BodyBSkin
+    100072: vsn_mesh_12_pm0082_00_BodyCSkin
+    100074: vsn_mesh_13_pm0082_00_BodyCSkin
+    100076: vsn_mesh_14_pm0082_00_BodyCSkin
+    100078: vsn_mesh_15_pm0082_00_BodyCSkin
+    100080: vsn_mesh_16_pm0082_00_BodyCSkin
+    100082: vsn_mesh_17_pm0082_00_BodyCSkin
+    100084: vsn_mesh_1_pm0082_00_BodyASkin
+    100086: vsn_mesh_2_pm0082_00_BodyASkin
+    100088: vsn_mesh_3_pm0082_00_BodyASkin
+    100090: vsn_mesh_4_pm0082_00_BodyASkin
+    100092: vsn_mesh_5_pm0082_00_BodyASkin
+    100094: vsn_mesh_6_pm0082_00_BodyBSkin
+    100096: vsn_mesh_7_pm0082_00_BodyBSkin
+    100098: vsn_mesh_8_pm0082_00_BodyBSkin
+    100100: vsn_mesh_9_pm0082_00_BodyBSkin
+    100102: Waist
+    100104: WaistA
+    100106: WaistB
+    100108: WaistC
+    400000: Armature
+    400002: EndHeadA
+    400004: EndHeadB
+    400006: EndHeadC
+    400008: EndLArmA
+    400010: EndLArmB
+    400012: EndLArmC
+    400014: EndLLegA
+    400016: EndLLegC
+    400018: EndRArmA
+    400020: EndRArmB
+    400022: EndRArmC
+    400024: EndRLegA
+    400026: EndRLegB
+    400028: EndWaist
+    400030: HeadA
+    400032: HeadB
+    400034: HeadC
+    400036: LArmA
+    400038: LArmB
+    400040: LArmC
+    400042: LLegA
+    400044: LLegC
+    400046: //RootNode
+    400048: pm0082_00
+    400050: pm0082_00_BodyASkin
+    400052: pm0082_00_BodyBSkin
+    400054: pm0082_00_BodyCSkin
+    400056: RArmA
+    400058: RArmB
+    400060: RArmC
+    400062: RLegA
+    400064: RLegB
+    400066: vsn_mesh_0_pm0082_00_BodyASkin
+    400068: vsn_mesh_10_pm0082_00_BodyBSkin
+    400070: vsn_mesh_11_pm0082_00_BodyBSkin
+    400072: vsn_mesh_12_pm0082_00_BodyCSkin
+    400074: vsn_mesh_13_pm0082_00_BodyCSkin
+    400076: vsn_mesh_14_pm0082_00_BodyCSkin
+    400078: vsn_mesh_15_pm0082_00_BodyCSkin
+    400080: vsn_mesh_16_pm0082_00_BodyCSkin
+    400082: vsn_mesh_17_pm0082_00_BodyCSkin
+    400084: vsn_mesh_1_pm0082_00_BodyASkin
+    400086: vsn_mesh_2_pm0082_00_BodyASkin
+    400088: vsn_mesh_3_pm0082_00_BodyASkin
+    400090: vsn_mesh_4_pm0082_00_BodyASkin
+    400092: vsn_mesh_5_pm0082_00_BodyASkin
+    400094: vsn_mesh_6_pm0082_00_BodyBSkin
+    400096: vsn_mesh_7_pm0082_00_BodyBSkin
+    400098: vsn_mesh_8_pm0082_00_BodyBSkin
+    400100: vsn_mesh_9_pm0082_00_BodyBSkin
+    400102: Waist
+    400104: WaistA
+    400106: WaistB
+    400108: WaistC
+    2100000: Eye00_mat
+    2100002: BodySpc_mat
+    2100004: BodyDesukarn00_mat
+    2100006: BodyDesukarnVco_mat
+    2100008: BodyDesukarn01_mat
+    2100010: Body_mat
+    2100012: Eye01_mat
+    2100014: Eye02_mat
+    4300000: vsn_mesh_0_pm0082_00_BodyASkin
+    4300002: vsn_mesh_1_pm0082_00_BodyASkin
+    4300004: vsn_mesh_2_pm0082_00_BodyASkin
+    4300006: vsn_mesh_3_pm0082_00_BodyASkin
+    4300008: vsn_mesh_4_pm0082_00_BodyASkin
+    4300010: vsn_mesh_5_pm0082_00_BodyASkin
+    4300012: vsn_mesh_6_pm0082_00_BodyBSkin
+    4300014: vsn_mesh_7_pm0082_00_BodyBSkin
+    4300016: vsn_mesh_8_pm0082_00_BodyBSkin
+    4300018: vsn_mesh_9_pm0082_00_BodyBSkin
+    4300020: vsn_mesh_10_pm0082_00_BodyBSkin
+    4300022: vsn_mesh_11_pm0082_00_BodyBSkin
+    4300024: vsn_mesh_12_pm0082_00_BodyCSkin
+    4300026: vsn_mesh_13_pm0082_00_BodyCSkin
+    4300028: vsn_mesh_14_pm0082_00_BodyCSkin
+    4300030: vsn_mesh_15_pm0082_00_BodyCSkin
+    4300032: vsn_mesh_16_pm0082_00_BodyCSkin
+    4300034: vsn_mesh_17_pm0082_00_BodyCSkin
+    9500000: //RootNode
+    13700000: vsn_mesh_0_pm0082_00_BodyASkin
+    13700002: vsn_mesh_10_pm0082_00_BodyBSkin
+    13700004: vsn_mesh_11_pm0082_00_BodyBSkin
+    13700006: vsn_mesh_12_pm0082_00_BodyCSkin
+    13700008: vsn_mesh_13_pm0082_00_BodyCSkin
+    13700010: vsn_mesh_14_pm0082_00_BodyCSkin
+    13700012: vsn_mesh_15_pm0082_00_BodyCSkin
+    13700014: vsn_mesh_16_pm0082_00_BodyCSkin
+    13700016: vsn_mesh_17_pm0082_00_BodyCSkin
+    13700018: vsn_mesh_1_pm0082_00_BodyASkin
+    13700020: vsn_mesh_2_pm0082_00_BodyASkin
+    13700022: vsn_mesh_3_pm0082_00_BodyASkin
+    13700024: vsn_mesh_4_pm0082_00_BodyASkin
+    13700026: vsn_mesh_5_pm0082_00_BodyASkin
+    13700028: vsn_mesh_6_pm0082_00_BodyBSkin
+    13700030: vsn_mesh_7_pm0082_00_BodyBSkin
+    13700032: vsn_mesh_8_pm0082_00_BodyBSkin
+    13700034: vsn_mesh_9_pm0082_00_BodyBSkin
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

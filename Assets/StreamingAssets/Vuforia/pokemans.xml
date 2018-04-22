@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="magikarp" size="1.000000 1.416819" />
+    <ImageTarget name="staryu" size="1.000000 1.422269" />
+    <ImageTarget name="cyndaquil" size="1.000000 1.414286" />
+    <ImageTarget name="pikachu" size="1.000000 1.401667" />
     <ImageTarget name="pic1" size="1.000000 1.504651" />
     <ImageTarget name="harold-0" size="1.000000 0.666667" />
     <ImageTarget name="squirtle" size="1.000000 1.395918" />

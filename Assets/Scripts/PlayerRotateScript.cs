@@ -6,29 +6,28 @@ using UnityEngine.EventSystems;
 public class PlayerRotateScript : MonoBehaviour,IPointerDownHandler,IPointerUpHandler {
 
 	private Button spinButton;
-	private GameObject squirtle;
+    private GameObject pokemon;
 	public bool buttonPressed;
 	float y;
 	// Use this for initialization
 	void Start () {
 		spinButton = GetComponent<Button>();
-		squirtle = GameObject.FindGameObjectWithTag ("Player");
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
-		if (buttonPressed) {
-			Click ();
-		}
-//		Debug.Log (squirtle.transform.eulerAngles.y);
-
-//		if (squirtle.transform.eulerAngles.y < -90) {
-//			squirtle.transform.rotation = Quaternion.Euler(0, -88, 0);
-//		}
-//		if (squirtle.transform.localEulerAngles.y > 270) {
-//			squirtle.transform.rotation = Quaternion.Euler(0, 88, 0);
-//		}
+        if (GameManager.instance.isStarted)
+        {
+			
+            pokemon = GameManager.players[GameManager.instance.getActive()];
+            if (buttonPressed)
+            {
+                y = pokemon.transform.rotation.eulerAngles.y;
+                //			if (y >= -180) {
+                Click();
+                //			}
+            }
+        }
 	}
 		
 
@@ -42,8 +41,7 @@ public class PlayerRotateScript : MonoBehaviour,IPointerDownHandler,IPointerUpHa
 
 	void Click(){
 		if (GameManager.instance.isStarted) {
-
-				squirtle.transform.Rotate (Vector3.up * 5);
+			pokemon.transform.Rotate (Vector3.up * 5);
 
 		}
 

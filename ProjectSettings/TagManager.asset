@@ -6,6 +6,12 @@ TagManager:
   tags:
   - SpinLeftButton
   - SpinRightButton
+  - Voltorb
+  - Magneton
+  - Magnemite
+  - PlayerHealth
+  - LevelButton
+  - Death
   layers:
   - Default
   - TransparentFX
