@@ -10,15 +10,14 @@ public class GameManager : MonoBehaviour
 
     public bool isStarted = false;
     public bool isGameOver = false;
-    public int score = 140;
-    public static int level = 0;
+    public int score = 0;
+    public int level = 1;
 
-    public static Dictionary<string, GameObject> healthLevels = new Dictionary<string, GameObject>();
-    public static Dictionary<string, GameObject> players = new Dictionary<string, GameObject>();
+    public Dictionary<string, GameObject> healthLevels = new Dictionary<string, GameObject>();
+    public Dictionary<string, GameObject> players = new Dictionary<string, GameObject>();
     public GameObject levelButton;
     public GameObject deathScreen;
 
-    private string[] pokemon = { "pikachu", "magikarp", "cyndaquil" };
 
     private Text scoreState;
     public AudioClip spawnAudio;
@@ -36,7 +35,7 @@ public class GameManager : MonoBehaviour
             Destroy(this.gameObject);
         }
 
-        DontDestroyOnLoad(this.gameObject);
+        //DontDestroyOnLoad(this.gameObject);
     }
 
     private void Start()
@@ -48,17 +47,15 @@ public class GameManager : MonoBehaviour
         scoreState = GameObject.FindGameObjectWithTag("ScoreState").GetComponent<Text>();
         scoreState.text = "Count: " + score.ToString();
         int i = 0;
+
         foreach(GameObject obj in GameObject.FindGameObjectsWithTag("PlayerHealth"))
         {
-            healthLevels.Add(pokemon[i], obj);
-            i++;
+            healthLevels.Add(obj.name, obj);
         }
 
-        i = 0;
         foreach (GameObject obj in GameObject.FindGameObjectsWithTag("Player"))
         {
-            players.Add(pokemon[i], obj);
-            i++;
+            players.Add(obj.name, obj);
         }
     }
 
@@ -68,12 +65,14 @@ public class GameManager : MonoBehaviour
         {
             Time.timeScale = 0f;
             levelButton.SetActive(true);
+            GameManager.instance.level = 2;
         }
 
         else if (score >= 500 && level == 2)
         {
             Time.timeScale = 0f;
             levelButton.SetActive(true);
+            GameManager.instance.level = 3;
         }
 
     }
