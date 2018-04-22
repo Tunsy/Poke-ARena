@@ -453,7 +453,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1624365713488224, guid: 2c37223f79166564a90bc013f056c28b, type: 2}
       propertyPath: m_Name
-      value: Fire Gun
+      value: cyndaquil
+      objectReference: {fileID: 0}
+    - target: {fileID: 1943949512253714, guid: 2c37223f79166564a90bc013f056c28b, type: 2}
+      propertyPath: m_Name
+      value: cyndaquil
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783998281868820, guid: 2c37223f79166564a90bc013f056c28b, type: 2}
+      propertyPath: m_Name
+      value: cyndaquil
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2c37223f79166564a90bc013f056c28b, type: 2}
@@ -829,6 +837,18 @@ Prefab:
       propertyPath: m_TagString
       value: GeneralProjectile
       objectReference: {fileID: 0}
+    - target: {fileID: 1359390992748394, guid: 9dfead0f07b46f34f9ce7ae13963f7f5, type: 2}
+      propertyPath: m_Name
+      value: magikarp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634523237594054, guid: 9dfead0f07b46f34f9ce7ae13963f7f5, type: 2}
+      propertyPath: m_Name
+      value: magikarp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1472891293900760, guid: 9dfead0f07b46f34f9ce7ae13963f7f5, type: 2}
+      propertyPath: m_Name
+      value: magikarp
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9dfead0f07b46f34f9ce7ae13963f7f5, type: 2}
   m_IsPrefabParent: 0
@@ -1188,6 +1208,26 @@ Prefab:
     - target: {fileID: 1847276612534204, guid: e62a314d7a4d15b4dabb4cf32e9cc99d, type: 2}
       propertyPath: m_TagString
       value: GeneralProjectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 1847276612534204, guid: e62a314d7a4d15b4dabb4cf32e9cc99d, type: 2}
+      propertyPath: m_Name
+      value: pikachu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194214063717564, guid: e62a314d7a4d15b4dabb4cf32e9cc99d, type: 2}
+      propertyPath: m_Name
+      value: squirtle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1813805187228258, guid: e62a314d7a4d15b4dabb4cf32e9cc99d, type: 2}
+      propertyPath: m_Name
+      value: squirtle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743234664247158, guid: e62a314d7a4d15b4dabb4cf32e9cc99d, type: 2}
+      propertyPath: m_Name
+      value: pikachu
+      objectReference: {fileID: 0}
+    - target: {fileID: 1389190852009346, guid: e62a314d7a4d15b4dabb4cf32e9cc99d, type: 2}
+      propertyPath: m_Name
+      value: pikachu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e62a314d7a4d15b4dabb4cf32e9cc99d, type: 2}

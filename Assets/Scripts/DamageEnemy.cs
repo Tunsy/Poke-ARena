@@ -18,7 +18,7 @@ public class DamageEnemy : MonoBehaviour {
 		
 	}
 
-	void OnTriggerEnter(Collider other) 
+	void OnCollisionEnter(Collision other) 
 	{
 		if(other.gameObject.GetComponent<EnemyBehavior>() != null)
 		{
@@ -26,7 +26,7 @@ public class DamageEnemy : MonoBehaviour {
 			EnemyBehavior script = other.gameObject.GetComponent<EnemyBehavior>() as EnemyBehavior;
 			int score = script.getPoints ();
 
-			GameManager.instance.AddScore(score);
+			//GameManager.instance.AddScore(score);
 			Destroy (other.gameObject);
 		}
 	}
