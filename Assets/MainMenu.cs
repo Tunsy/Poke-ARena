@@ -9,22 +9,23 @@ public class MainMenu : MonoBehaviour {
 
 	public void PlayGame()
     {
-        StartCoroutine("StartGame");
+//        StartCoroutine("StartGame");
+		UnityEngine.SceneManagement.SceneManager.LoadScene (1);
     }
 
-    public IEnumerator StartGame()
-    {
-        SoundManager.instance.PlaySingle(buttonClick);
-        while (SoundManager.instance.efxSource.isPlaying)          // while audio is playing,
-        {
-            yield return null;                        // chill out in here.
-        }
-        SceneManager.LoadScene("main");  // then, continue on.
-    }
-
-    public void QuitGame()
-    {
-        Debug.Log("Quit");
-        Application.Quit();
-    }
+//    public IEnumerator StartGame()
+//    {
+//        SoundManager.instance.PlaySingle(buttonClick);
+//        while (SoundManager.instance.efxSource.isPlaying)          // while audio is playing,
+//        {
+//            yield return null;                        // chill out in here.
+//        }
+//        SceneManager.LoadScene("main");  // then, continue on.
+//    }
+//
+//    public void QuitGame()
+//    {
+//        Debug.Log("Quit");
+//        Application.Quit();
+//    }
 }
