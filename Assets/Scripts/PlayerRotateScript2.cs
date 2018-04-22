@@ -17,12 +17,17 @@ public class PlayerRotateScript2 : MonoBehaviour,IPointerDownHandler,IPointerUpH
 
 	// Update is called once per frame
 	void Update () {
+
 		if (buttonPressed) {
-			y = squirtle.transform.rotation.eulerAngles.y;
-//			if (y <= 180) {
-				Click ();
-//			}
+			Click ();
 		}
+//		if (squirtle.transform.eulerAngles.y > 270) {
+//			squirtle.transform.rotation = Quaternion.Euler(0, 272, 0);
+//		}
+//		if (squirtle.transform.localEulerAngles.y > 90) {
+//			squirtle.transform.rotation = Quaternion.Euler(0, 88, 0);
+//		}
+
 	}
 
 
@@ -36,10 +41,8 @@ public class PlayerRotateScript2 : MonoBehaviour,IPointerDownHandler,IPointerUpH
 
 	void Click(){
 		if (GameManager.instance.isStarted) {
-//			float y = squirtle.transform.rotation.eulerAngles.y;
-//			if (y >= -90 && y<=90) {
+
 				squirtle.transform.Rotate (Vector3.up * -5);
-//			}
 		}
 
 	}
