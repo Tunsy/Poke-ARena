@@ -10,7 +10,7 @@ public class EnemyBehavior : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("PlayerHealth");
         speed = Random.Range(0.5f, 2f);
     }
 	
@@ -25,7 +25,7 @@ public class EnemyBehavior : MonoBehaviour {
 
     public void OnTriggerEnter(Collider collider)
     {
-        if(collider.gameObject.tag == "Player")
+        if(collider.gameObject.tag == "PlayerHealth")
         {
             setDamage();
             player.GetComponent<Health>().TakeDamage(damage);            
