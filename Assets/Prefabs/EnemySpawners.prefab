@@ -142,8 +142,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Magnemite: {fileID: 1280529615209808, guid: e4d9be7e658bc7541963f3cb95889bc3, type: 2}
-  Magneton: {fileID: 1730710819200630, guid: 8d4b00d913ab1d147aac5990522f5a1f, type: 2}
-  Voltorb: {fileID: 1564786541358876, guid: 1143e9124c6aa70489d0e1e22b7bb1f2, type: 2}
+  Magneton: {fileID: 1175348865544852, guid: 8d4b00d913ab1d147aac5990522f5a1f, type: 2}
+  Voltorb: {fileID: 1306718919753648, guid: 1143e9124c6aa70489d0e1e22b7bb1f2, type: 2}
 --- !u!114 &114697591639769440
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -156,8 +156,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Magnemite: {fileID: 1280529615209808, guid: e4d9be7e658bc7541963f3cb95889bc3, type: 2}
-  Magneton: {fileID: 1730710819200630, guid: 8d4b00d913ab1d147aac5990522f5a1f, type: 2}
-  Voltorb: {fileID: 1564786541358876, guid: 1143e9124c6aa70489d0e1e22b7bb1f2, type: 2}
+  Magneton: {fileID: 1175348865544852, guid: 8d4b00d913ab1d147aac5990522f5a1f, type: 2}
+  Voltorb: {fileID: 1306718919753648, guid: 1143e9124c6aa70489d0e1e22b7bb1f2, type: 2}
 --- !u!114 &114702135573260134
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -170,8 +170,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Magnemite: {fileID: 1280529615209808, guid: e4d9be7e658bc7541963f3cb95889bc3, type: 2}
-  Magneton: {fileID: 1730710819200630, guid: 8d4b00d913ab1d147aac5990522f5a1f, type: 2}
-  Voltorb: {fileID: 1564786541358876, guid: 1143e9124c6aa70489d0e1e22b7bb1f2, type: 2}
+  Magneton: {fileID: 1175348865544852, guid: 8d4b00d913ab1d147aac5990522f5a1f, type: 2}
+  Voltorb: {fileID: 1306718919753648, guid: 1143e9124c6aa70489d0e1e22b7bb1f2, type: 2}
 --- !u!114 &114942306326393712
 MonoBehaviour:
   m_ObjectHideFlags: 1
