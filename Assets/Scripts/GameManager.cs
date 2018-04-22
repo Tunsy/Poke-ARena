@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance = new GameManager();
 
     public bool isStarted = false;
+    public static int level = 1;
 
     // Use this for initialization
     void Awake()
