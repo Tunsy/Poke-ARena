@@ -12,6 +12,7 @@ TagManager:
   - PlayerHealth
   - LevelButton
   - Death
+  - ScoreState
   layers:
   - Default
   - TransparentFX
