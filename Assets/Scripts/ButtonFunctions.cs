@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class NextLevel : MonoBehaviour {
 
-public void nextLevel()
+    public void nextLevel()
     {
+        SoundManager.instance.PlayBattleMusic();
         gameObject.SetActive(false);
         Time.timeScale = 1f;
         GameManager.level++;
-    }
+     }
 }
