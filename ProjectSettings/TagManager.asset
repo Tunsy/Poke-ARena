@@ -12,6 +12,8 @@ TagManager:
   - PlayerHealth
   - LevelButton
   - Death
+  - ScoreState
+  - Pikachu Projectile
   layers:
   - Default
   - TransparentFX

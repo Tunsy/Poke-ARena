@@ -8,6 +8,7 @@ public class SoundManager : MonoBehaviour
     public static SoundManager instance = null;     //Allows other scripts to call functions from SoundManager.             
     public float lowPitchRange = .95f;              //The lowest a sound effect will be randomly pitched.
     public float highPitchRange = 1.05f;            //The highest a sound effect will be randomly pitched.
+    public AudioClip battleMusic;
 
 
     void Awake()
@@ -21,8 +22,14 @@ public class SoundManager : MonoBehaviour
             //Destroy this, this enforces our singleton pattern so there can only be one instance of SoundManager.
             Destroy(gameObject);
 
-        //Set SoundManager to DontDestroyOnLoad so that it won't be destroyed when reloading our scene.
-        DontDestroyOnLoad(gameObject);
+        // Set SoundManager to DontDestroyOnLoad so that it won't be destroyed when reloading our scene.
+        //DontDestroyOnLoad(gameObject);
+
+    }
+
+    public void Start()
+    {
+        StopMusic();
     }
 
 
@@ -45,6 +52,13 @@ public class SoundManager : MonoBehaviour
     public void StopMusic()
     {
         musicSource.Stop();
+    }
+
+    public void PlayBattleMusic()
+    {
+        Debug.Log("Playing battle");
+        musicSource.clip = battleMusic;
+        musicSource.Play();
     }
 
     //RandomizeSfx chooses randomly between various audio clips and slightly changes their pitch.

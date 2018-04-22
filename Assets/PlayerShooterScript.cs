@@ -18,6 +18,8 @@ public class PlayerShooterScript : MonoBehaviour {
 	
 //	 Update is called once per frame
 	void Update () {
+		Debug.Log ("hi ther eim your message");
+		Debug.Log (GameManager.instance.getActive ());
 		if (GameManager.instance.isStarted && Time.time > nextFire) {
 			nextFire = Time.time + fireRate;
 			Rigidbody bullet= Instantiate(shot, transform.position, facingTransform.rotation) as Rigidbody;

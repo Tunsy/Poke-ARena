@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Vuforia;
 
 public class GameManager : MonoBehaviour
@@ -19,6 +20,7 @@ public class GameManager : MonoBehaviour
 
     private string[] pokemon = { "pikachu", "magikarp", "cyndaquil" };
 
+    private Text scoreState;
     public AudioClip spawnAudio;
 
     // Use this for initialization
@@ -43,7 +45,8 @@ public class GameManager : MonoBehaviour
         deathScreen = GameObject.FindGameObjectWithTag("Death");
         deathScreen.SetActive(false);
         levelButton.SetActive(false);
-
+        scoreState = GameObject.FindGameObjectWithTag("ScoreState").GetComponent<Text>();
+        scoreState.text = "Count: " + score.ToString();
         int i = 0;
         foreach(GameObject obj in GameObject.FindGameObjectsWithTag("PlayerHealth"))
         {
@@ -61,13 +64,13 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if(score == 150 && level == 1)
+        if(score >= 150 && level == 1)
         {
             Time.timeScale = 0f;
             levelButton.SetActive(true);
         }
 
-        else if (score == 500 && level == 2)
+        else if (score >= 500 && level == 2)
         {
             Time.timeScale = 0f;
             levelButton.SetActive(true);
@@ -93,6 +96,8 @@ public class GameManager : MonoBehaviour
     public void AddScore(int scoreIncrement)
     {
         score += scoreIncrement;
+        scoreState.text = "Count: " + score.ToString();
+
     }
 
     public string getActive()

@@ -5,9 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
+    public AudioClip buttonClick;
+
 	public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        StartCoroutine("StartGame");
+    }
+
+    public IEnumerator StartGame()
+    {
+        SoundManager.instance.PlaySingle(buttonClick);
+        while (SoundManager.instance.efxSource.isPlaying)          // while audio is playing,
+        {
+            yield return null;                        // chill out in here.
+        }
+        SceneManager.LoadScene("main");  // then, continue on.
     }
 
     public void QuitGame()
