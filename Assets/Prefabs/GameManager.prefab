@@ -54,3 +54,4 @@ MonoBehaviour:
   isStarted: 0
   isGameOver: 0
   score: 0
+  spawnAudio: {fileID: 8300000, guid: c27c650201112a944ac396f8430c1a66, type: 3}
