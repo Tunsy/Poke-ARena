@@ -76,7 +76,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if (score >= 80 && level == 1)
+        if (score >= 50 && level == 1)
         {
             SoundManager.instance.StopMusic();
             SoundManager.instance.PlaySingle(victorySound);

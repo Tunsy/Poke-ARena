@@ -463,6 +463,16 @@ Prefab:
       propertyPath: m_Name
       value: cyndaquil
       objectReference: {fileID: 0}
+    - target: {fileID: 114036055668726742, guid: 2c37223f79166564a90bc013f056c28b,
+        type: 2}
+      propertyPath: damage
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114036055668726742, guid: 2c37223f79166564a90bc013f056c28b,
+        type: 2}
+      propertyPath: fireRate
+      value: 0.7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2c37223f79166564a90bc013f056c28b, type: 2}
   m_IsPrefabParent: 0
@@ -849,6 +859,16 @@ Prefab:
       propertyPath: m_Name
       value: magikarp
       objectReference: {fileID: 0}
+    - target: {fileID: 114038742844847678, guid: 9dfead0f07b46f34f9ce7ae13963f7f5,
+        type: 2}
+      propertyPath: damage
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114038742844847678, guid: 9dfead0f07b46f34f9ce7ae13963f7f5,
+        type: 2}
+      propertyPath: fireRate
+      value: 0.25
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9dfead0f07b46f34f9ce7ae13963f7f5, type: 2}
   m_IsPrefabParent: 0
@@ -890,6 +910,14 @@ Prefab:
     - target: {fileID: 4952933207467990, guid: 2529538927081a24fa0daa13ed25ad72, type: 2}
       propertyPath: m_RootOrder
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431720870198134, guid: 2529538927081a24fa0daa13ed25ad72, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 2.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900533615857386, guid: 2529538927081a24fa0daa13ed25ad72, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.95
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2529538927081a24fa0daa13ed25ad72, type: 2}
@@ -1228,6 +1256,33 @@ Prefab:
     - target: {fileID: 1389190852009346, guid: e62a314d7a4d15b4dabb4cf32e9cc99d, type: 2}
       propertyPath: m_Name
       value: pikachu
+      objectReference: {fileID: 0}
+    - target: {fileID: 114202842006519408, guid: e62a314d7a4d15b4dabb4cf32e9cc99d,
+        type: 2}
+      propertyPath: damage
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825197929241672, guid: e62a314d7a4d15b4dabb4cf32e9cc99d, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.329212
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825197929241672, guid: e62a314d7a4d15b4dabb4cf32e9cc99d, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.329212
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825197929241672, guid: e62a314d7a4d15b4dabb4cf32e9cc99d, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.329212
+      objectReference: {fileID: 0}
+    - target: {fileID: 114202842006519408, guid: e62a314d7a4d15b4dabb4cf32e9cc99d,
+        type: 2}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114202842006519408, guid: e62a314d7a4d15b4dabb4cf32e9cc99d,
+        type: 2}
+      propertyPath: fireRate
+      value: 0.35
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e62a314d7a4d15b4dabb4cf32e9cc99d, type: 2}
