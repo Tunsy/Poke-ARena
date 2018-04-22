@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public int score = 0;
     public static int level = 1;
 
+    public AudioClip spawnAudio;
+
     // Use this for initialization
     void Awake()
     {
@@ -29,6 +31,7 @@ public class GameManager : MonoBehaviour
 
     public void StartGame()
     {
+        SoundManager.instance.PlaySingle(spawnAudio);
         isStarted = true;
     }
 
