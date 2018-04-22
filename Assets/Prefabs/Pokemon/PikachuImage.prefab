@@ -3285,8 +3285,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb06ca2f756d344388ab5cb56e5c8c6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: {fileID: 54702687077821260, guid: 3cd3894cf14cd4a188018912a9910165, type: 2}
-  fireRate: 0.5
+  shot: {fileID: 54702687077821260, guid: 2415cac2065d14cbcb4eb413a634086a, type: 2}
+  fireRate: 0.3
   speed: 3
   facingTransform: {fileID: 4309300066742550}
   powerUp: 0

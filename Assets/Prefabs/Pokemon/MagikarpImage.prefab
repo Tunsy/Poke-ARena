@@ -1508,7 +1508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb06ca2f756d344388ab5cb56e5c8c6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: {fileID: 54702687077821260, guid: 3cd3894cf14cd4a188018912a9910165, type: 2}
+  shot: {fileID: 54702687077821260, guid: 7ddbe942dc6224363a377cb6c993b9d5, type: 2}
   fireRate: 0.4
   speed: 0.8
   facingTransform: {fileID: 4711020954822518}

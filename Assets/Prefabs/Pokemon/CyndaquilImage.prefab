@@ -460,8 +460,8 @@ GameObject:
   - component: {fileID: 4724754572306712}
   - component: {fileID: 114036055668726742}
   m_Layer: 0
-  m_Name: Water Gun
-  m_TagString: Untagged
+  m_Name: cyndaquil
+  m_TagString: GeneralProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -539,7 +539,7 @@ GameObject:
   - component: {fileID: 65375221821113138}
   - component: {fileID: 114377990559373710}
   m_Layer: 0
-  m_Name: Cyndaquil
+  m_Name: cyndaquil
   m_TagString: PlayerHealth
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -710,7 +710,7 @@ GameObject:
   - component: {fileID: 4735782379212228}
   - component: {fileID: 95437977746669116}
   m_Layer: 0
-  m_Name: Cyndaquil
+  m_Name: cyndaquil
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1600,9 +1600,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb06ca2f756d344388ab5cb56e5c8c6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shot: {fileID: 54702687077821260, guid: 3cd3894cf14cd4a188018912a9910165, type: 2}
-  fireRate: 2
-  speed: 3
+  shot: {fileID: 54702687077821260, guid: 7c274cb135b934062b09b5bd0f7a7d4f, type: 2}
+  fireRate: 0.8
+  speed: 4.5
   facingTransform: {fileID: 4735782379212228}
   powerUp: 0
 --- !u!114 &114377990559373710
