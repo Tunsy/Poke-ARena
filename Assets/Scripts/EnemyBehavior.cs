@@ -17,7 +17,7 @@ public class EnemyBehavior : MonoBehaviour {
 	void Update () {
         if (GameManager.instance.isStarted == true)
         {
-            player = GameManager.healthLevels[GameManager.instance.getActive()];
+            player = GameManager.instance.healthLevels[GameManager.instance.getActive()];
             float distance = speed * Time.deltaTime;
             transform.position = Vector3.MoveTowards(transform.position, player.transform.position, distance);
         }
@@ -29,7 +29,6 @@ public class EnemyBehavior : MonoBehaviour {
         {
             setDamage();
             player.GetComponent<Health>().TakeDamage(damage);
-            Debug.Log(player);
             Debug.Log(player.GetComponent<Health>().currentHealth);            
             Destroy(gameObject);
         }

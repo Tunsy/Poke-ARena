@@ -10,10 +10,19 @@ public class ButtonFunctions : MonoBehaviour {
         SoundManager.instance.PlayBattleMusic();
         gameObject.SetActive(false);
         Time.timeScale = 1f;
-        GameManager.level++;
+        if(GameManager.instance.level < 3)
+            GameManager.instance.level++;
     }
     public void restart()
     {
+        Time.timeScale = 1f;
+        GameObject.FindGameObjectWithTag("Death").SetActive(false);
         SceneManager.LoadScene(1);
+    }
+
+    public void menu()
+    {
+        SceneManager.LoadScene(0);
+        SceneManager.UnloadSceneAsync(1);
     }
 }
