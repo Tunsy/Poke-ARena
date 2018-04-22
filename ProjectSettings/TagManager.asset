@@ -15,6 +15,7 @@ TagManager:
   - ScoreState
   - Pikachu Projectile
   - GeneralProjectile
+  - Bullet
   layers:
   - Default
   - TransparentFX

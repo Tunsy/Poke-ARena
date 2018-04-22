@@ -34,6 +34,14 @@ public class EnemyBehavior : MonoBehaviour {
             Debug.Log(player.GetComponent<Health>().currentHealth);            
             Destroy(gameObject);
         }
+
+        if (collider.gameObject.tag == "Bullet")
+        {
+            setDamage();
+            GameManager.instance.AddScore(damage);
+            Destroy(collider.gameObject);
+            Destroy(gameObject);
+        }
     }
 
     private void setDamage()

@@ -45,12 +45,12 @@ public class GameManager : MonoBehaviour
         deathScreen = GameObject.FindGameObjectWithTag("Death");
         deathScreen.SetActive(false);
         levelButton.SetActive(false);
-        //scoreState = GameObject.FindGameObjectWithTag("ScoreState").GetComponent<Text>();
-        //scoreState.text = "Count: " + score.ToString();
+        scoreState = GameObject.FindGameObjectWithTag("ScoreState").GetComponent<Text>();
+        scoreState.text = "Count: " + score.ToString();
         int i = 0;
         Debug.Log("Starting 23");
 
-        foreach(GameObject obj in GameObject.FindGameObjectsWithTag("PlayerHealth"))
+        foreach (GameObject obj in GameObject.FindGameObjectsWithTag("PlayerHealth"))
         {
             healthLevels.Add(obj.name, obj);
         }
@@ -75,7 +75,7 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        if(score >= 150 && level == 1)
+        if (score >= 150 && level == 1)
         {
             Time.timeScale = 0f;
             levelButton.SetActive(true);
