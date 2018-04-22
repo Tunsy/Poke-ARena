@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
 
     public Dictionary<string, GameObject> healthLevels = new Dictionary<string, GameObject>();
     public Dictionary<string, GameObject> players = new Dictionary<string, GameObject>();
+    public Dictionary<string, GameObject> projectiles = new Dictionary<string, GameObject>();
     public GameObject levelButton;
     public GameObject deathScreen;
 
@@ -51,6 +52,11 @@ public class GameManager : MonoBehaviour
         foreach (GameObject obj in GameObject.FindGameObjectsWithTag("Player"))
         {
             players.Add(obj.name, obj);
+        }
+
+        foreach (GameObject obj in GameObject.FindGameObjectsWithTag("GeneralProjectile"))
+        {
+            projectiles.Add(obj.name, obj);
         }
     }
 
